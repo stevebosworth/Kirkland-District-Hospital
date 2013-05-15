@@ -1,0 +1,32 @@
+﻿/* setting accordion */
+
+.ml .msheader
+    {
+        background:#315879;
+        border:1px solid #ccc;
+        height: 30px;
+        font-size:1.5em;
+    }
+.ml .msheader:hover
+    {
+        cursor:pointer;
+        border:1px solid #ff0;
+        
+    }
+.ml .msselected
+    {
+        color:#ffffff;
+        background:#121212;
+        padding-left:5px;
+        height: 30px;
+        font-size:1.5em;
+       
+    }
+.msfooter
+     {
+         background:#ccc
+     }
+.msaccordion
+     {
+         width:550px;
+     }

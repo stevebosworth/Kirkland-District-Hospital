@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>KDH Master Page</title>
+    <asp:ContentPlaceHolder id="cph_head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="disclaimer"><p>THIS IS A STUDENT PROJECT SITE.  THE REAL KIRKLAND DISTRICT HOSPITAL <a href="http://www.kdhospital.com/Site_Published/kdh/default.aspx" style="color:#fff;">IS HERE</a>.</p></div>
+    <asp:LoginView ID="lgv_admin" runat="server">
+        <AnonymousTemplate></AnonymousTemplate>
+        <LoggedInTemplate>
+            <div id="admin_nav">
+                <%--<asp:LoginName ID="lnm_main" runat="server" />--%>
+                <asp:SiteMapDataSource ID="sds_admin" runat="server" SiteMapProvider="AdminSiteMapProvider" ShowStartingNode="false" />
+                <asp:Menu ID="mnu_admin_nav" runat="server" DataSourceID="sds_admin" Orientation="Horizontal" CssClass="admin_main_nav" StaticEnableDefaultPopOutImage="false">
+                    <StaticMenuItemStyle CssClass="admin_menu_item" />
+                    <StaticMenuStyle CssClass="admin_menu" />
+                    <StaticSelectedStyle CssClass="admin_menu_selected" />
+                    <StaticHoverStyle CssClass="admin_menu_item_hover" />
+                    <DynamicHoverStyle CssClass="sub_admin_menu_hover" />
+                    <DynamicMenuStyle CssClass="sub_admin_menu" />
+                    <DynamicMenuItemStyle CssClass="sub_admin_menu_item" />                    
+                </asp:Menu>
+                <asp:LoginStatus ID="lgs_main" runat="server" />
+            </div>
+        </LoggedInTemplate>
+    </asp:LoginView>
+    
+    <div id="container">
+            <div id="login">
+                <asp:Login ID="lgn_main" runat="server" Orientation="Horizontal" TitleText="" RememberMeText="Remember Me" VisibleWhenLoggedIn="false" />
+            </div>
+            <div id="header">
+                <img src="../../images/kirkland_logo.png" alt="Kirkland District Hospital" id="logo" />
+                <p>Call Us: (123) 456-7890<br />145 Government Road East<br />Kirkland Lake,ON.</p>
+                <p><img src="../../images/icons/search_icon.png" title="search Kirkland hospital" alt="search" /><asp:TextBox ID="txt_search" runat="server" /></p>
+            </div>
+            <div id="nav">
+                <asp:SiteMapDataSource ID="sds_nav" runat="server" ShowStartingNode="false" />
+                <asp:Menu ID="mnu_nav" runat="server" DataSourceID="sds_nav" Orientation="Horizontal" CssClass="main_nav" StaticEnableDefaultPopOutImage="false" >
+                    <StaticMenuItemStyle CssClass="menu_item" />
+                    <StaticMenuStyle CssClass="menu" />
+                    <StaticSelectedStyle CssClass="menu_selected" />
+                    <StaticHoverStyle CssClass="menu_item_hover" />
+                    <DynamicHoverStyle CssClass="sub_menu_hover" />
+                    <DynamicMenuStyle CssClass="sub_menu" />
+                    <DynamicMenuItemStyle CssClass="sub_menu_item" />
+                </asp:Menu>
+            </div>
+            <div id="container_content">
+                <asp:ContentPlaceHolder ID="cph_content" runat="server" />
+            </div>
+            <div id="footer_content">
+                <div class="footer_links">
+                    <ul>
+                        <li><h1>Recruiting</h1></li>
+                        <li>Visiting Information</li>
+                        <li>Plan your Visit</li>
+                        <li>Find a Doctor</li>
+                        <li>Plan your Visit</li>
+                        <li>Rights and Responsibilities</li>
+                        <li>Patient Safety</li>
+                        <li>Your Privacy</li>
+                        <li>Your Stay at KDH</li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <ul>
+                        <li><h1>Foundation</h1></li>
+                        <li>About The Foundation</li>
+                        <li>Upcoming Events</li>
+                        <li>Contact the Foundation</li>
+                        <li>Make a Donation</li>
+                        <li>Donor Bill of Rights</li>
+                        <li>Donation Board Members</li>                        
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <ul>
+                        <li><h1>Human Resources</h1></li>
+                        <li>Recruiting Centre</li>
+                        <li>Job Opportunities</li>
+                        <li>How to Apply</li>
+                        <li>Contact HR</li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <ul>
+                        <li><h1>Contact Us</h1></li>
+                        <li>Emergency Contacts</li>
+                        <li>Front Office Contacts</li>
+                        <li>Employee Index</li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <img src="../../images/hospital.png" alt="Hospital" style="padding-top: 25px;padding-left:40px; "/><br />
+                    <span style="float: right;text-align: center">(123) 456-7890<br />145 Government Road East<br />Kirkland Lake, ON.</span>
+                </div>
+                <div id="copyright">
+                    <span>Kirkland District Hospital</span> | <a href="#">SITEMAP</a> | <a href="#">LEGAL NOTICES</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

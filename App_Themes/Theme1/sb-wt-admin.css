@@ -1,0 +1,108 @@
+﻿/*  WAIT TIMES ADMIN STYLES */
+
+.sb #menu_patients
+{
+    width:80%;
+    margin:0 auto;
+    
+}
+
+.sb #add_patient
+{
+    width:48%;
+    float:left;
+}
+
+.sb #menu_manage
+{
+    clear:both;
+}
+
+.sb #curr_wait_time
+{
+    width:48%;
+    float:right;
+    text-align:center;
+    padding-top:100px;
+    padding-left:10px;
+}
+
+
+.sb .tabs
+{
+    color:#000;
+    font-family: 'pt sans', Sans-Serif;
+    font-size:1.2em;
+    font-weight:700;
+    font-stretch:narrower;
+    padding-left:80px;
+    margin-right:5px;     
+}
+
+.sb .selected
+{
+    border: 4px solid #235c9d;
+    border-bottom:none;
+    color:#000;
+    font-family: 'pt sans', Sans-Serif;
+    font-size:1.1em;
+    font-weight:700;
+    font-stretch:narrower;
+    margin-left:5px;
+      
+}
+
+.sb .tab .selected
+{
+    padding:2px;
+    margin-right:10px;
+}
+
+.sb .panels
+{
+    border: 4px solid #235c9d;
+    border-radius:4px;
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.sb .dtl_patients
+{
+    max-width:958px;
+}
+
+.sb .modal_bg
+{
+    background-color:#235c9d;
+    opacity: 0.7;
+}
+
+.sb .modal_pnl
+{
+    background:#e4f9fc;
+    padding:25px;
+    border-radius:5px;
+}
+
+.sb #menu_manage 
+{
+    border-bottom:4px solid #235c9d;
+}
+
+.sb #menu_content 
+{
+    border-bottom:4px solid #235c9d;
+}
+
+.sb #page_header
+{
+    border-bottom:4px solid #235c9d;
+    margin-bottom:50px;
+}
+
+/*.sb #add_patients
+{
+    border: 1px dashed pink;
+}*/

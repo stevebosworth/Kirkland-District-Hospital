@@ -1,0 +1,15 @@
+﻿/* GENERAL STYLES */
+
+.sb .label
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+    padding-left:5px;
+}
+
+.sb .txt_form
+{
+    display:block;
+    border-radius:4px;
+    margin-bottom:5px;
+}

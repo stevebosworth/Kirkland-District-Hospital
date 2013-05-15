@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap> 
+  <siteMapNode url="" title="Admin Links"  description="Admin Links">
+    <siteMapNode url="" title="Admin" description="Admin" >
+      <siteMapNode url="Admin/admin/add-content-sb.aspx" title="Custom Pages"  description="Manage Custom Pages"/>
+      <siteMapNode url="Admin/admin/ne-admin-news-ml-V1.aspx" title="News-Articles"  description="News-Articles" />
+      <siteMapNode url="Admin/admin/ne-admin-comm-ml-V1.aspx" title="News-Comments"  description="News-Comments" />
+      <siteMapNode url="Admin/admin/cmsPostVolunteer_ml_V1.aspx" title="Volunteer Postings"  description="Volunteer Postings" />
+      <siteMapNode url="Admin/admin/cmsVolApp_ml_V1.aspx" title="Volunteer Applications"  description="Volunteer Applications" />
+      <siteMapNode url="Admin/admin/donAdmin_sk.aspx" title="Donations"  description="Manage Donations"/>
+      <siteMapNode url="Admin/admin/contact-admin.aspx" title="Contact Us"  description="Contact Us"/>
+      <siteMapNode url="Admin/admin/careers-admin.aspx" title="Career Opportunities"  description="Career Opportunites"/>
+      <siteMapNode url="Admin/admin/survey-admin.aspx" title="Patient Satisfaction Survey"  description="Patient Satisfaction Survey"/>
+      <siteMapNode url="Admin/admin/nb-findDoctor-Admin.aspx" title="Find a Doctor" description="Find a Doctor"/>
+    </siteMapNode>
+    
+    <siteMapNode url="" title="Medical"  description="Medical" >
+        <siteMapNode url="Admin/medical_staff/wt-admin-sb.aspx" title="ER Wait Times" description="Manage ER Wait Times" />
+        <siteMapNode url="Admin/medical_staff/ms-admin-ml-V1.aspx" title="Medical Services"  description="Medical Services" />
+        <siteMapNode url="Admin/medical_staff/donorbank_admin_gr.aspx" title="Donor Bank"  description="Donor Bank" />
+        <siteMapNode url="Admin/medical_staff/bookaptment_admin_gr.aspx" title="View Appointments"  description="View Appointments" />     
+    </siteMapNode>
+    <siteMapNode url="" title="Non Medical"  description="Non Medical" >
+      <siteMapNode url="Admin/non_medical_staff/pp-parking-admin-sb.aspx" title="Parking Admin" description="Manage Parking"/>
+      <siteMapNode url="Admin/non_medical_staff/eventsAdmin_sk.aspx" title="Events Admin" description="Manage Events"/>
+      <siteMapNode url="Admin/non_medical_staff/newsletterAdmin_sk.aspx" title="News Admin" description="Manage News"/>
+      <siteMapNode url="Admin/non_medical_staff/location-admin-gr.aspx" title="Add a Department" description="Add a Department"/>
+      <siteMapNode url="Admin/non_medical_staff/nb_ecardGiftShopAdmin.aspx" title="Ecard and Gift Shop" description="Ecard and Gift Shop"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

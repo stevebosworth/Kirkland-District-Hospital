@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <siteMapNode url="" title="Home" description="Home">
+    <siteMapNode url="~/home.aspx" title="Home" description="Home" />
+    <siteMapNode url="" title="About us" description="About us">
+      <siteMapNode url="~/page_sb.aspx?page=" title="About Us" description="About Us" />
+    </siteMapNode>
+    <siteMapNode url="" title="Program &amp; Services" description="Program &amp; Services">
+      <siteMapNode url="~/nb_findDoctor.aspx" title="Doctor Finder" description="Doctor Finder" />
+      <siteMapNode url="donorbank_public_gr.aspx" title="Donor Registration" description="Donor Bank" />
+      <siteMapNode url="bookaptment_public_gr.aspx" title="Book an Appointment" description="Appointments" />
+      <siteMapNode url="ms_AllServices_ml_V1.aspx" title="Medical Services" description="Medical Services" />
+      <siteMapNode url="ne-news-ml-V1.aspx" title="News–Blog" description="News–Blog" />
+      <siteMapNode url="newsletter_sk.aspx" title="Mailing List/Health Alerts" description="Mailing List/Health Alerts" />
+    </siteMapNode>
+    <siteMapNode url="" title="Patient &amp; Visitors" description="Patient &amp; Visitors">
+      <siteMapNode url="~/eventsCalendar_sk.aspx" title="Events Calendar" description="Events Calendar" />
+      <siteMapNode url="~/nb_ecardGiftShop.aspx" title="e-cards gifts" description="e-cards gifts" />
+      <siteMapNode url="~/pp_public_sb.aspx" title="Parking" description="Parking" />
+      <siteMapNode url="~/HospitalPatientSatisfactionSurvey.aspx" title="Patient Satisfaction Survey" description="Patient Satisfaction Survey" />
+    </siteMapNode>
+    <siteMapNode url="" title="Foundation" description="Foundation">
+      <siteMapNode url="~/donorLogin_sk.aspx" title="Donate Now" description="Donate Now" />
+    </siteMapNode>
+    <siteMapNode url="" title="Careers &amp; Volunteers" description="Careers &amp; Volunteers">
+      <siteMapNode url="~/Careers_bp.aspx" title="Career Opportunities" description="Career Opportunities" />
+      <siteMapNode url="~/vr_postVolunList_ml_V1.aspx" title="Volunteer Opportunities" description="Volunteer Opportunities" />
+    </siteMapNode>
+    <siteMapNode url="" title="Contact Us" description="Contact Us">
+      <siteMapNode url="~/nb_chatLogin.aspx" title="Live Chat" description="Live Chat" />
+      <siteMapNode url="~/contact.aspx" title="Contact Kirkland" description="Contact Kirkland" />
+      <siteMapNode url="~/location_public_gr.aspx" title="Location Map" description="Location Map" />
+      <siteMapNode url="~/directory_public_gr.aspx" title="Department Directory" description="Directory" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

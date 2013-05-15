@@ -1,0 +1,365 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-position: top center;
+    background-size: 100%;
+    margin-top:60px;    
+}
+
+h1
+{
+    font-family: 'pt sans', Sans-Serif;
+    color: #000;
+    font-size: 25px;
+}
+
+h2
+{
+    font-family: 'pt sans', Sans-Serif;
+    color: #235c9d;
+    font-size: 18px;
+}
+
+
+#disclaimer
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    Height: 40px;
+    width: 100%;
+    background-color: red;
+    z-index:9999999;
+}
+
+#disclaimer p
+{
+    margin-top:0;
+    text-align: center;
+    font-family: 'pt sans', Sans-Serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+#admin_nav
+{
+    font-family: 'pt sans', Sans-Serif;
+    font-size:26px;
+    font-weight:500;
+    color: #fff;
+    width:100%;
+    max-width:980px;
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom:20px;
+    background-color:#235c9d;
+}
+
+#admin_nav a, #admin_nav a:visited,  #admin_nav a:active
+{
+    text-decoration:none;
+    font-size:22px;
+    color:#fff;
+}
+
+#admin_nav a:hover
+{
+    font-weight:700;
+}
+
+#container
+{
+    width:80%;
+    max-width:980px;
+    min-width:950px;
+    margin: 0 auto;
+}
+
+#header
+{
+    width:100%;
+    max-width:980px;
+    margin: 0 auto;
+    height: 150px;
+    margin-bottom:20px;
+}
+#logo{
+    float: left;
+    max-height: 153px;
+    max-width: 245px;
+}
+
+#header p{
+    float: right;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
+    color:#0a4880;
+    font-size: 18px;
+}
+#header p:last-child{
+    clear: both;
+    float: right;
+    margin-top: -30px;    
+}
+
+#admin_nav
+{
+    border: 1px dashed black;
+}
+
+#login
+{
+    width:100%;
+    height:35px;
+}
+
+#lgn_main
+{
+    float:right;
+    
+}
+
+#nav{
+    clear:both;
+    max-width:980px;
+    height:50px;
+    background-color: rgba(230,250,253,.55);
+    border: 8px solid rgba(203,247,251,.55);
+    border-bottom: none;
+    padding-left:10px;
+    padding-bottom:4px;
+    z-index:100000000;
+}
+
+#nav a, #nav a:hover, #nav a:visited, #nav a:active
+{
+    color: #4f5262;
+}
+
+.menu_item
+{
+    font-family: 'pt sans', Sans-Serif;
+    font-size:20px;
+    font-weight:500;
+    font-stretch:narrower;
+    margin-left:5px;
+    margin-right:5px;
+    z-index:100000000;
+}
+
+.main_nav .menu :hover
+{
+    background-color:#fff;
+    border-radius:5px 5px 0 0;
+    padding-bottom:5px;
+    z-index:100000000;
+}
+
+.sub_menu
+{
+    background-color:#fff;
+    border-radius: 0 0 5px 5px; 
+    z-index:100000000;
+}
+
+.sub_menu_item
+{
+    font-family: 'pt sans', Sans-Serif;
+    font-size:18px;
+    padding:0 7px 7px 7px;
+    z-index:100000000;
+}
+
+#container_content
+{
+    padding-top:10px;
+    padding-bottom: 25px;
+    border: 8px solid #cbf7fb;
+    border-top:none;
+    border-bottom:none;
+    background-color:#fff;
+    -webkit-background-clip:border-box;
+}
+
+#slider{
+    width:80%;
+    max-width:980px;
+    max-height:380px;
+    height:380px;
+    margin-top:15px;
+    margin-left:4%;     
+}
+
+#wowslider-container1
+{
+    z-index:0;
+}
+
+#articles_container
+{
+    margin-left:10px;
+    height:340px;
+    width:940px;
+    margin:0 auto;
+}
+
+.article
+{
+    float:left;
+    padding: 10px 15px 0px 15px;
+    width:290px;
+    height:250px;  
+}
+.article img{
+    float: right;
+    width:85px;
+    height:100px;
+}
+.article h1{
+    float: left;
+    text-align: left;
+    color:#8d8f97;
+    width:170px;
+    font-size: 21px;
+    font-family: 'PT Sans', sans-serif;
+}
+.article p{
+    clear: both;
+    width:100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#wait_time
+{
+    text-align:center;
+}
+#container_recruiting
+{
+    clear:both;
+    width:98%;   
+    margin:0 auto;
+    height: 250px;
+}
+#recruit
+{
+    float: left;
+    width:14%;    
+    padding-left:10px;
+}
+#recruit h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #0a4880;
+}
+#career
+{
+    width:84%;
+    float: left;    
+}
+#career h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    color: #0a4880;
+}
+#career p
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #000;
+    padding: 10px;
+    text-align: justify;
+}
+#career a{
+    margin: 10px;
+    font-size: 24px;
+    color: #0033ff;
+}
+#footer_content{
+    clear: both;
+    border-top: 6px #ffcc00 solid;
+    margin: 0 auto;
+    background-color: #6e96b7;
+    width:100%;
+    background: #7db9e8; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZTU3OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #7db9e8 0%, #1e5799 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(100%,#1e5799)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-8 */
+color: #fff; 
+}
+
+/*FOOTER AREA*/
+
+
+.footer_links{
+    float:left;
+    margin-left: -25px;
+}
+.footer_links a{
+    text-decoration: none;
+}
+.footer_links li h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+.footer_links li{
+    list-style: none;
+    line-height: 1.4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px; 
+}
+#copyright{
+    clear:both;
+    padding: 15px;
+}
+#copyright span{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color:#ffcc00;
+}
+#copyright a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: underline;
+    color:white;
+}
+
+
+/*---------FIND A DOCTOR ADMIN AND PUBLIC-----------*/
+
+#nb_searchBy
+{
+	float:left;
+}
+
+#nb_typeSearch
+{
+	float:right;
+}
+
+#findDoctor_searchResults
+{
+	clear:both;
+}
+
+
+/* ADD CONTENT STYLES */
+
+#add-content
+{
+    width:90%;
+    margin: 0 auto;
+}
+
+#controls
+{
+    margin-top:15px;
+}
+
+
+
+
